@@ -85,6 +85,7 @@
                     node.style.overflow = 'visible';
                     css += '#' + nodeId + '{opacity:1 !important;overflow: visible !important; display:none !important}';
                     node.style.display = 'none';
+                    console.log('[ClickJackBlocker] blocked an iframe');
                 }
             }
 
