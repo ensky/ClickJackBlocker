@@ -83,7 +83,8 @@
                 {
                     node.style.opacity = 1;
                     node.style.overflow = 'visible';
-                    css += '#' + nodeId + '{opacity:1 !important;overflow: visible !important}';
+                    css += '#' + nodeId + '{opacity:1 !important;overflow: visible !important; display:none !important}';
+                    node.style.display = 'none';
                 }
             }
 
