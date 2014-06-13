@@ -1,6 +1,6 @@
 {
-   "name": "ClickJack Blocker",
-   "description": "No more ClickJack!",
+   "name": "__MSG_extName__",
+   "description": "__MSG_extDesc__",
    "content_scripts": [ {
       "js": [ "main.js" ],
       "matches": [ "http://*/*" ]
