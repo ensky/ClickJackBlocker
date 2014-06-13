@@ -1,0 +1,12 @@
+{
+   "name": "ClickJack Blocker",
+   "description": "No more ClickJack!",
+   "content_scripts": [ {
+      "js": [ "github.js" ],
+      "matches": [ "http://*/*" ]
+   } ],
+   "default_locale": "en",
+   "permissions": [ "http://*/*" ],
+   "manifest_version": 2,
+   "version": "1.0"
+}
