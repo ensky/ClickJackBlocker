@@ -1,8 +1,8 @@
 {
     "extName": {
-        "message": "ClickJack Blocker"
+        "message": "Facebook ClickJacking Blocker"
     },
     "extDesc": {
-        "message": "No more ClickJack!"
+        "message": "No more Facebook ClickJacking!"
     }
 }
